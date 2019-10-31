@@ -1,5 +1,5 @@
 var assert = require('assert');
-var debounce = require('./');
+var debounce = require('./index');
 
 describe('debounce', function() {
   it('waits for the threshold to pass before executing', function(done) {

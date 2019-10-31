@@ -1,5 +1,5 @@
 var assert = require('assert');
-var flatten = require('./');
+var flatten = require('./index');
 
 describe('flatten', function() {
   var arr = [1, [2], [3, 4, [5]]];

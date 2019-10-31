@@ -1,5 +1,5 @@
 var assert = require('assert');
-var once = require('./');
+var once = require('./index');
 
 describe('once', function() {
   it("won't execute more than once", function() {
